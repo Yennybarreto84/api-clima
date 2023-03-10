@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 function App() {
 
   const API_endpoint = "https://api.openweathermap.org/data/2.5/weather?"
-  const API_key = "44632ef80a8e631810f1b35deef354c2"
+  const API_key = "4b9f4ec3508d3f3802d1c31bb93db5c6"
   let lat = ""
   let lon = ""
   const [ character, setCharacter ] = useState({})
